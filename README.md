@@ -27,3 +27,7 @@ Emilio Mena
 Joaquin O´Donnell
 
 Tomas Montigel
+
+
+Link de figma con wireframes: https://www.figma.com/file/qRzcubPdIwyINsvTYLIDXl/El-buen-sabor?type=design&node-id=0%3A1&mode=design&t=tmjcU7NP8EAetGM1-1
+ 
