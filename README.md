@@ -1,5 +1,6 @@
 # DttM-ElBuenSabor
-![Logo]()
+![Logo](https://github.com/PLPBID/DttM-BuenSabor/assets/141865003/f3c6a953-22d5-4994-b9e0-78d166699b0a)
+
 
 # Repositorio del proyecto "El Buen Sabor" del grupo Dollar to the Moon
 
