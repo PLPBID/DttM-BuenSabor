@@ -1,3 +1,3 @@
-# DttM-BuenSabor
-# Repositorio del proyecto Buen Sabor del grupo Dolar to the moon
+# DttM-ElBuenSabor
+# Repositorio del proyecto "El Buen Sabor" del grupo Dollar to the Moon
 Participantes: Bruno Daniel, Adolfo Quintana, Carlos Muñoz, Franco Petino, Emilio Mena, Joaquin O´Donnell y Tomas Montigel
