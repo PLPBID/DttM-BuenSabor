@@ -29,3 +29,7 @@ Tomas Montigel
 # Boceto En Figma
 
 [Link a Bocetos en Figma](https://www.figma.com/file/qRzcubPdIwyINsvTYLIDXl/El-buen-sabor?type=design&t=oMBrsvTIsjQb9i5w-6)
+
+#Entrega Sprint 1 
+
+[Link a Google Doc](https://docs.google.com/document/d/1RiYOccFwYTDredh83sI5LZNP7Drwj-p7Nbk0ue-wvn8/edit?usp=sharing)
