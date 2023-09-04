@@ -1,0 +1,261 @@
+
+header {
+    background-color:#FDC95A;
+    border: 0.063em solid black;
+  }
+
+
+.barra-col{
+    margin-left: 4%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.botones-izq{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link{
+    color: black;
+    font-size: 20px;
+}
+
+.btn-dark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#FDC95A;
+    color: black;
+    border: none;
+    font-size: 1.25em;
+}
+
+.icon-person{
+    color: white;
+    font-size: 2.563em;
+}
+
+.icon-arrow{
+    color: white;
+    font-size: 2.5em;
+}
+
+.contenedor-img{
+    position: relative; /* El contenedor se establece como relativo para posicionar elementos hijos */
+    display: flex; /* Esto permite que el contenedor se ajuste al contenido */
+    
+
+}
+
+.contenedor-img img {
+    width: 100%; /* Asegura que la imagen de fondo se ajuste al ancho del contenedor */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+  }
+  
+.ul-nav {
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;   
+    position: absolute; /* La navegación se posiciona de forma absoluta dentro del contenedor */
+    bottom: 0%; /* Ajusta la posición verticalmente según sea necesario */
+    left: 0%; /* Ajusta la posición horizontalmente según sea necesario */
+    overflow: hidden; 
+    padding: 10px; /* Añade relleno alrededor del contenido de navegación */
+    z-index: 1; /* Asegura que la navegación esté en la capa superior */
+    background-color: rgba(253, 201, 90, 80%);
+  }
+
+  .ul-nav li{
+
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+
+.cartas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin: 24px;
+}
+
+#hambT {
+    font-weight: normal;
+    font-size: 1.625em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-left: 7.5em;
+    margin-top: 1.5em;
+}
+
+.card-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.comprar{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.card-img-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body{
+    padding-top: 0;
+    padding-right: 25px; /* Espacio a la derecha */
+    padding-bottom: 0;
+    padding-left: 25px;
+}
+
+.comprar p{
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card-link{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 48px;
+    width: 48px;
+    background-color: #fff;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.carrito{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #fff;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FDC95A;
+    height: 160px;
+    width: 100%;
+    margin-top: 80px;
+    border: 1px solid black;
+}
+
+footer .contacto{
+    display: flex;
+    margin: 0 96px 0 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto .whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 36px;
+    background-color: #fff;
+    margin-right: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contacto .insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 36px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.wh{
+    font-size: 27px;
+    color:#8D8BA7;
+}
+
+.ig{
+    font-size: 27px;
+    color:#8D8BA7;
+}
+
+
+footer p{
+    margin: 0 0 0 96px;
+    color: rgba(0, 0, 0, 54%);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.input-box{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 46px;
+    max-width: 213px;
+    width: 100%;
+    border-radius: 50px;
+   /* overflow: hidden;*/
+    border: 1px solid black;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.input-box input{
+    
+    position: relative;
+    height: 18px;
+    width: 133px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    text-align:left;
+    padding: 0 16px;
+    
+}
+
+
+
+.inputbox .search{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 21px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+}
+
+
+.search .search-icon{
+    font-size: 18px;
+    color: black;
+    padding-right: 16px;
+}
