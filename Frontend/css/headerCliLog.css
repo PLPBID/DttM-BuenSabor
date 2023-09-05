@@ -12,24 +12,9 @@ header {
 
 }
 
-.botones-izq{
-    display: flex;
-    justify-content: center;
-}
-
 .nav-link{
     color: black;
     font-size: 20px;
-}
-
-.btn-dark{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:#FDC95A;
-    color: black;
-    border: none;
-    font-size: 1.25em;
 }
 
 .icon-person{
@@ -93,8 +78,6 @@ header {
     
 }
 
-
-
 .inputbox .search{
     position: absolute;
     right: 0;
@@ -113,4 +96,20 @@ header {
     font-size: 18px;
     color: black;
     padding-right: 16px;
+}
+
+.btn-dark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FDC95A;
+    color: black;
+    border: none;
+    font-size: 1.25em;    
+}
+
+.botones-izq{
+    display: flex;
+    justify-content: center;
+    color: black;
 }
