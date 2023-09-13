@@ -102,6 +102,12 @@ header{
     border-style: none;
 }
 
+.botonconf{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5vh;
+}
+
 footer{
     display: flex;
     height: 160px;
