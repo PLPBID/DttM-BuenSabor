@@ -1,0 +1,62 @@
+header {
+    background-color:#FDC95A;
+    border: 0.063em solid black;
+  }
+
+  
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FDC95A;
+    height: 160px;
+    width: 100%;
+    margin-top: 80px;
+    border: 1px solid black;
+}
+
+footer .contacto{
+    display: flex;
+    margin: 0 96px 0 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto .whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 36px;
+    background-color: #fff;
+    margin-right: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contacto .insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 36px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.wh{
+    font-size: 27px;
+    color:#8D8BA7;
+}
+
+.ig{
+    font-size: 27px;
+    color:#8D8BA7;
+}
+
+footer p{
+    margin: 0 0 0 96px;
+    color: rgba(0, 0, 0, 54%);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
