@@ -1,36 +1,22 @@
-header{
+.header-frame{
     width: 100%;
     height: auto;
 }
-  
 
-
-.card-img-overlay img{
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,0), black, rgba(0,0,0,0));
+.main{
+    padding-bottom: 20vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
 }
 
-.menu a{
-    font-size: 1em;
-    color:black;
-}
-
-.titulos{
-    display: flex;
-    justify-content: center;
-}
-
-
-
-.icono-carro{
-    font-size: 2.5em;
-    color: black;
+.main h1{
+    margin-bottom: 1em;
 }
 
 footer{
     padding: 1em;
     margin-top: 5em;
     background-color: #FDC95A;
-
   }
   
   .red-social{
