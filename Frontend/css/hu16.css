@@ -3,6 +3,14 @@
     height: auto;
 }
 
+.texto-grande {
+    font-size: 1em; 
+}
+
+.texto-pequeno {
+    font-size: 0.8em; 
+}
+
 .main{
     padding-bottom: 20vh;
     padding-left: 5vh;
