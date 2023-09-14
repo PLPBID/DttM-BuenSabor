@@ -1,58 +1,7 @@
-
-header {
-    background-color:#FDC95A;
-    border: 0.063em solid black;
-  }
-
-
-.barra-col{
-    margin-left: 4%;
-    display: flex;
-    justify-content: space-between;
-
+header{
+    width: 100%;
+    height: auto;
 }
-
-.botones-izq{
-    display: flex;
-    justify-content: center;
-}
-
-.nav-link{
-    color: black;
-    font-size: 20px;
-}
-
-.btn-dark{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:#FDC95A;
-    color: black;
-    border: none;
-    font-size: 1.25em;
-}
-
-.icon-person{
-    color: white;
-    font-size: 2.563em;
-}
-
-.icon-arrow{
-    color: white;
-    font-size: 2.5em;
-}
-
-.contenedor-img{
-    position: relative; /* El contenedor se establece como relativo para posicionar elementos hijos */
-    display: flex; /* Esto permite que el contenedor se ajuste al contenido */
-    
-
-}
-
-.contenedor-img img {
-    width: 100%; /* Asegura que la imagen de fondo se ajuste al ancho del contenedor */
-    height: auto; /* Mantiene la relación de aspecto de la imagen */
-  }
   
 .ul-nav {
     height: 5em;

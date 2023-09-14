@@ -1,157 +1,23 @@
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-    background-color: white;
-    margin: 0 0px;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    height: 120px;
+.header-frame{
     width: 100%;
-    background-color: #FDC95A;
-    border: 1px solid black;
-    align-items: center;
-    
-}
-
-.logo{
-    display: flex;
-    height: 78px;
-    width: 188px;
-    margin: 0 0 0 96px;
-}
-
-.medio{
-    display: flex;
-    align-items: center;
-    
-}
-
-.botones-izq ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    padding-left: 0;
-    padding-right: 48px;
-}
-
-.botones-izq li {
-    display: flex;
+    height: auto;
 }
 
 
-.nav-link{
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
+
+.ingresar{
+    margin-top: 4em;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.ingresar h2{
+    text-align: center;
     font-weight: normal;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
-}
-
-#inicio{
-    padding-right: 48px;
-}
-
-.input-box{
-    display: flex;
-    position: relative;
-    height: 46px;
-    max-width: 213px;
-    width: 100%;
-    border-radius: 50px;
-   /* overflow: hidden;*/
-    border: 1px solid black;
-    background-color: white;
-    align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.input-box input{
+    font-size: 1.625em;
     
-    position: relative;
-    height: 18px;
-    width: 133px;
-    outline: none;
-    border: none;
-    border-radius: 50px;
-    font-size: 18px;
-    font-weight: normal;
-    color: black;
-    text-align:left;
-    padding: 0 16px;
-    
-}
-
-
-
-.inputbox .search{
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    width: 21px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 16px;
-}
-
-
-.search .search-icon{
-    font-size: 18px;
-    color: black;
-    padding-right: 16px;
-}
-
-.botones ul{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    padding-left: 0;
-}
-
-#botonl{
-    width: 70px;
-    height: 20px;
-    font-size: 18px;
-    color: black;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
-    font-weight: normal;
-    text-decoration: none;
-}
-
-.padlock .padlock-icon{
-    width: 30px;
-    height: 30px;
-    color: black;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.login{
-    margin-right: 24px;
-}
-
-#botonR {
-    display: flex;
-    width: 119px;
-    height: 54px;
-    align-items: center;
-    justify-content: center;
-    margin: 0 96px 0 0;
-    border-radius: 30px;
-    background-color: white;
-    border: 1px solid black;
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .linea{
@@ -198,189 +64,38 @@ header{
     position: relative;
   }  
 
-  .ingresarT {
-    margin-top: 56px;
-    margin-bottom: 40px;
+  .contenido{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    justify-content:center;
+    align-items:center;
   }
 
-  .ingresarT h2 {
-    text-align: center;
-    font-weight: normal;
-    font-size: 26px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.ingresarT button{
-    width: 236px;
-    height: 48px;
-    font-size: 20px;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    color: rgba(0, 0, 0, 54%);
-    border: none;
-}
-
-
-.carta{
-    width: 400px;
-    height: 414px;
-    padding: 16px;
-    background-color: #fff;
-    border: 1px solid black;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    margin-top: 40px;
-    
-    
-}
-
-.contenido {
-    text-align: center;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    margin-top: 16px;
-  }
-
- .mail input {
-    /*position: relative;*/
-    /*outline: none;*/
-   /* border: none;*/
-    width: 294px;
-    height: 50px; 
-    border-radius: 8px;
-    margin-bottom: 10px; 
-    font-size: 16px;
-    border: 1px solid black;
-    box-sizing: border-box;
-    padding: 0 8px 0 8px;
-    margin-bottom: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
-
-  .input-eye{
-    position: relative; /* Establece el contexto para el posicionamiento absoluto del icono */
-    width: 294px;
-    height: 50px;
-    /*transform: translate(-2px, 0);*/
-    margin-bottom: 40px;
-  }
-
-  .input-eye input{
-    width: 100%; /* Ancho completo de la barra de entrada */
-    height: 100%;
-    border: 1px solid black; /* Borde de la barra de entrada */
-    border-radius: 8px; /* Borde redondeado */
-    font-size: 16px;
-    box-sizing: border-box;
-    padding: 0 30px 0 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
-
-  .eye-icon{
-    position: absolute; /* Posicionamiento absoluto con respecto al contenedor */
-  top: 50%; /* Centra verticalmente el icono */
-  right: 10px; /* Espacio desde el borde derecho del contenedor (ajusta según tus necesidades) */
-  transform: translateY(-50%); /* Corrige la alineación vertical */
-  color: #666; /* Color del icono (ajusta según tus necesidades) */
-  cursor: pointer; /* Cambia el cursor al pasar sobre el icono (opcional) */
-  font-size: 20px;
-  }
-
-  #botonI{
-    position: relative;
-    width: 188px;
-    height: 70px;
-    margin-bottom: 40px;
-    border-radius: 30px;
+  footer{
+    margin-top: 5em;
     background-color: #FDC95A;
-    color:white;
-    font-size: 20px;
-    border: 1px solid black;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 1em;
   }
-
-  .flecha-der{
-    position: absolute; /* Posicionamiento absoluto con respecto al contenedor */
-  top: 50%; /* Centra verticalmente el icono */
-  right: 10px; /* Espacio desde el borde derecho del contenedor (ajusta según tus necesidades) */
-  transform: translateY(-50%); /* Corrige la alineación vertical */
-  font-size: 50px;
-  border-radius: 0;
   
+  .red-social{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 2.25em;
+      width: 2.25em;
+      background-color: #fff;
+      border-radius: 0.5em;
   }
-
-  #olvidaste{
-   /* margin-bottom: 40px;*/
-   margin-bottom: 40px;
-   font-size: 16px;
-   color: #0645AD;
-   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+  
+  .whatsapp{
+    margin-right: 1em;
   }
-
-  #noCuenta{
-    font-size: 16px;
-    color: #0645AD;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+  
+  .whatsapp i{
+    font-size: 1.688em;
+      color:#8D8BA7;
   }
-
-
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #FDC95A;
-    height: 160px;
-    width: 100%;
-    margin-top: 80px;
-    border: 1px solid black;
-}
-
-footer .contacto{
-    display: flex;
-    margin: 0 96px 0 0;
-}
-
-.contacto .whatsapp{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 36px;
-    width: 36px;
-    background-color: #fff;
-    margin-right: 16px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.contacto .insta{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 36px;
-    width: 36px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.wh{
-    font-size: 27px;
-    color:#8D8BA7;
-}
-
-.ig{
-    font-size: 27px;
-    color:#8D8BA7;
-}
-
-
-footer p{
-    margin: 0 0 0 96px;
-    color: rgba(0, 0, 0, 54%);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
+  
+  .instagram i{
+    font-size: 1.688em;
+      color:#8D8BA7;
+  }
