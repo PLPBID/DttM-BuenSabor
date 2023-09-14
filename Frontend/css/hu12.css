@@ -1,0 +1,146 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FDC95A;
+    height: 160px;
+    width: 100%;
+    margin-bottom: 0px;
+    border: 1px solid black;
+}
+
+footer .contacto{
+    display: flex;
+    margin: 0 96px 0 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto .whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 36px;
+    background-color: #fff;
+    margin-right: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contacto .insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 36px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.wh{
+    font-size: 27px;
+    color:#8D8BA7;
+}
+
+.ig{
+    font-size: 27px;
+    color:#8D8BA7;
+}
+
+
+footer p{
+    margin: 0 0 0 96px;
+    color: rgba(0, 0, 0, 54%);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.agregar {
+    display: flex;
+    border: 2px solid #FDC95A ;
+    border-radius: 8px;
+    height: 30px;
+    margin: 20px;
+    
+
+}
+.card-body > #productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boton-cant {
+    border: 0px;
+    border-radius: 6px;
+    color: #FDC95A;
+    background-color: #ffffff;
+    min-width: 30px;
+}
+.carrito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.boton-principal {
+    border: 1px solid black;
+    background-color: #FDC95A;
+    color: #ffffff;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+}
+.dropdown-menu {
+    background-color: #ffffff;
+    
+
+}
+.btn {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #FDC95A;
+
+}
+.btn:hover {
+    background-color: #FDC95A;
+    border-color: #0c0c0c;
+}
+.datos-resumen p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+.resumen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+}
+.card,#resumen {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+#total {
+    size: 289px;
+}
+.card-body > #resumen {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.cant {
+    text-align: right;
+    width: 25%;
+}
+.dato {
+    text-align: left;
+    width: 75%;
+}
