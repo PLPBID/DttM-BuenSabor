@@ -165,3 +165,9 @@ footer p{
     color: rgba(0, 0, 0, 54%);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+.botonconf{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5vh;
+}
