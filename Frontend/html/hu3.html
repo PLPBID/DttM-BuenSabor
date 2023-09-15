@@ -11,10 +11,10 @@
 <body>
     
     <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: #FDC95A;">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
-                <img src="/Frontend/assets/Frame 39529.svg" alt="" style="height: 75%; width: 75%;">
+                <img id="logo" src="/Frontend/assets/Frame 39529.svg" alt="">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -66,60 +66,81 @@
             <h1>Mis Datos Personales</h1>
         </div>
 
-        <section class="linea">
-            <div class="linea-con-circulo1"></div>
-            <div class="circulo"></div>
-            <div class="linea-con-circulo2"></div>
-        </section>
+        <div>
+            <img src="../assets/separador2.svg" alt="" width="100%">
+        </div>
 
         <div class="form">
             <div class="form1">
                 <div class="casilla">
                     <label for="nombre">Nombre</label>
-                    <input type="text" placeholder="Nombre">
+                    <input type="text" class="form-control" placeholder="Nombre">
                 </div>
                 <div class="casilla">
                     <label for="telefono">Teléfono</label>
-                    <input type="text" placeholder="Teléfono">
+                    <input type="text" class="form-control" placeholder="Teléfono">
                 </div>
                 <div class="casilla">
                     <label for="direccion">Dirección</label>
-                    <input type="text" placeholder="Dirección">
+                    <input type="text" class="form-control" placeholder="Dirección">
                 </div>
                 <div class="casilla">
                     <label for="contraseña">Contraseña</label>
-                    <input type="password" placeholder="Contraseña">
+                    <input type="password" class="form-control" placeholder="Contraseña">
                 </div>
             </div>
             <div class="form2">
                 <div class="casilla">
                     <label for="apellido">Apellido</label>
-                    <input type="text" placeholder="Apellido">
+                    <input type="text" class="form-control" placeholder="Apellido">
                 </div>
                 <div class="casilla">
                     <label for="email">Mail</label>
-                    <input type="text" placeholder="Mail">
+                    <input type="text" class="form-control" placeholder="Mail">
                 </div>
                 <div class="casilla">
                     <label for="departamento">Departamento</label>
-                    <input type="text" placeholder="Departamento">
+                    <input type="text" class="form-control" placeholder="Departamento">
                 </div>
                 <div class="casilla">
                     <label for="fechaNac">Fecha de nacimiento</label>
-                    <input type="text" placeholder="Fecha de nacimiento">
+                    <input type="text" class="form-control" placeholder="Fecha de nacimiento">
                 </div>
             </div>
         </div>
 
         <div class="botonconf">
-            <button class="btn btn-outline-black">Volver</button>
-            <button class="btn btn-outline-black">Editar</button>
+            <button type="button" class="btn btn-outline-dark" id="boton"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+              </svg>Volver</button>
+            <button type="button" class="btn btn-outline-dark" id="boton">Editar<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z"/>
+              </svg></button>
         </div>
 
     </div>
 
     <footer>
-        <iframe class="iframefooter" src="footer.html"></iframe>
+        <nav class="navbar navbar-light ">
+            <div class="container-fluid">
+              <span class="navbar-text">
+                Copyright © 2023 El buen sabor | All Rights Reserved
+              </span>
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link red-social whatsapp" href="#">
+                        <i class="uil uil-whatsapp-alt wh"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link red-social instagram" href="#">
+                        <i class="uil uil-instagram ig"></i>
+                    </a>            
+                </li>
+              </ul>
+            </div>
+          </nav>
+          
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
