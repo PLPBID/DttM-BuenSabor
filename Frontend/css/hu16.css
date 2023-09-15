@@ -1,41 +1,30 @@
-header{
+.header-frame{
     width: 100%;
     height: auto;
 }
-  
-.carta-burger{
-  max-width: 21.875em;
-  max-height: 33.625em;
+
+.texto-grande {
+    font-size: 1em; 
 }
 
-.card-img-overlay img{
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,0), black, rgba(0,0,0,0));
+.texto-pequeno {
+    font-size: 0.8em; 
 }
 
-.menu a{
-    font-size: 1em;
-    color:black;
+.main{
+    padding-bottom: 20vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
 }
 
-.titulos{
-    display: flex;
-    justify-content: center;
-    margin-top: 2em;
+.main h1{
     margin-bottom: 1em;
-}
-
-
-
-.icono-carro{
-    font-size: 2.5em;
-    color: black;
 }
 
 footer{
     padding: 1em;
     margin-top: 5em;
     background-color: #FDC95A;
-
   }
   
   .red-social{
