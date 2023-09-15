@@ -1,3 +1,7 @@
+.titulo-delivery h3{
+  color: black;
+}
+
 .header-frame{
     width: 100%;
     height: auto;
@@ -12,7 +16,7 @@
 }
 
 .main{
-    padding-bottom: 20vh;
+    padding-bottom: 10vh;
     padding-left: 5vh;
     padding-right: 5vh;
 }
