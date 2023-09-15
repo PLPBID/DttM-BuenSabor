@@ -3,7 +3,10 @@ header{
     height: auto;
 }
   
-
+.carta-burger{
+  max-width: 21.875em;
+  max-height: 33.625em;
+}
 
 .card-img-overlay img{
     mask-image: linear-gradient(to bottom, rgba(0,0,0,0), black, rgba(0,0,0,0));
@@ -17,6 +20,8 @@ header{
 .titulos{
     display: flex;
     justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 
 
