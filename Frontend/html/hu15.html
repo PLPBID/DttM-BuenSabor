@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Frontend/css/hu15.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg mb-5" style="background-color: #FDC95A;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="/Frontend/assets/Frame 39529.svg" alt="" style="height: 75%; width: 75%;">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse nav-justified" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="titulo-cajero nav-item mr-1">
+                    <h3>Cajero</h3>
+                  </li>
+                 
+                </ul>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-light dropdown-toggle btn-outline-dark rounded-5" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                        <i class="bi bi-cash-coin"></i>
+                        <span class="texto-grande">Mi Cuenta</span>
+                        
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-end">
+                      <li><button class="dropdown-item" type="button">Ver Perfil</button></li>
+                      <li><button class="dropdown-item" type="button">Historial de Pedidos</button></li>
+                      <li><button class="dropdown-item" type="button">Salir</button></li>
+                    </ul>
+                  </div>
+            </div>
+          </nav>
+    </header>
+
+
+   <section class="main">
+    <h1>Pedidos</h1>
+        <div>Estado <button class="btn btn-outline-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Todos <i class="uil uil-angle-down"></i>
+            </button>
+                <ul class="dropdown-menu">
+                    <li><button class="dropdown-item" type="button">Todos</button></li>
+                    <li><button class="dropdown-item" type="button">A confirmar</button></li>
+                    <li><button class="dropdown-item" type="button">En cocina</button></li>
+                    <li><button class="dropdown-item" type="button">Listo</button></li>
+                    <li><button class="dropdown-item" type="button">En delivery</button></li>
+                    <li><button class="dropdown-item" type="button">Entregado</button></li>
+                </ul>
+        </div>
+
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="titulo-tabla" scope="col">N°Pedido</th>
+                    <th class="titulo-tabla" scope="col">Fecha y hora</th>
+                    <th class="titulo-tabla" scope="col">Forma de Entrega</th>
+                    <th class="titulo-tabla" scope="col">Forma de pago</th>
+                    <th class="titulo-tabla" scope="col">Estado de Pago</th>
+                    <th class="titulo-tabla" scope="col">Estado</th>
+                    <th class="titulo-tabla" scope="col">Detalle</th>
+                    <th class="titulo-tabla" scope="col">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>000000001</td>
+                    <td>25/03/2023 21:00</td>
+                    <td>Delivery</td>
+                    <td>Mercado Pago</td>
+                    <td>Confirmando</td>
+                    <td>A confirmar</td>
+                    <td><button type="button" class="btn btn-outline-warning rounded-5">Ver detalle<i class="uil uil-angle-right"></i></button></td>
+                    <td><button type="button" class="btn btn-outline-warning rounded-5">A cocina</button>
+                        <button type="button" class="btn btn-outline-success rounded-5">Pagar</button>
+                        <button type="button" class="btn btn-outline-warning rounded-5">Ver receta<i class="uil uil-angle-right"></i></button>
+                        <button type="button" class="btn btn-outline-danger rounded-5">Eliminar <i class="bi bi-trash3"></i></button></td>
+                </tr>
+                <tr>
+                    <td>000000002</td>
+                    <td>25/03/2023 21:30</td>
+                    <td>Delivery</td>
+                    <td>Mercado Pago</td>
+                    <td>Confirmando</td>
+                    <td>A confirmar</td>
+                    <td><button type="button" class="btn btn-outline-warning rounded-5">Ver detalle<i class="uil uil-angle-right"></i></button></td>
+                    <td><button type="button" class="btn btn-outline-warning rounded-5">A cocina</button>
+                        <button type="button" class="btn btn-outline-success rounded-5">Pagar</button>
+                        <button type="button" class="btn btn-outline-warning rounded-5">Ver receta<i class="uil uil-angle-right"></i></button>
+                        <button type="button" class="btn btn-outline-danger rounded-5">Eliminar <i class="bi bi-trash3"></i></button></td>
+                </tr>
+                <tr>
+                    <td>000000003</td>
+                    <td>25/03/2023 22:00</td>
+                    <td>Delivery</td>
+                    <td>Mercado Pago</td>
+                    <td>Pagado</td>
+                    <td>En cocina</td>
+                    <td><button type="button" class="btn btn-outline-warning rounded-5">Ver detalle<i class="uil uil-angle-right"></i></button></td>
+                    <td><button type="button" class="btn btn-outline-warning rounded-5" disabled>A cocina</button>
+                        <button type="button" class="btn btn-outline-success rounded-5">Pagar</button>
+                        <button type="button" class="btn btn-outline-warning rounded-5">Ver receta<i class="uil uil-angle-right"></i></button>
+                        <button type="button" class="btn btn-outline-danger rounded-5">Eliminar <i class="bi bi-trash3"></i></button></td>
+                </tr>
+                <tr>
+                    <td>000000004</td>
+                    <td>25/03/2023 22:30</td>
+                    <td>Retiro Local</td>
+                    <td>Efectivo</td>
+                    <td>Pagado</td>
+                    <td>En cocina</td>
+                    <td><button type="button" class="btn btn-outline-warning rounded-5">Ver detalle<i class="uil uil-angle-right"></i></button></td>
+                    <td><button type="button" class="btn btn-outline-warning rounded-5" disabled>A cocina</button>
+                        <button type="button" class="btn btn-outline-success rounded-5">Pagar</button>
+                        <button type="button" class="btn btn-outline-warning rounded-5">Ver receta<i class="uil uil-angle-right"></i></button>
+                        <button type="button" class="btn btn-outline-danger rounded-5">Eliminar <i class="bi bi-trash3"></i></button></td>
+                </tr>
+                <tr>
+                    <td>000000005</td>
+                    <td>25/03/2023 23:00</td>
+                    <td>Retiro Local</td>
+                    <td>Efectivo</td>
+                    <td>Confirmando</td>
+                    <td>A confirmar</td>
+                    <td><button type="button" class="btn btn-outline-warning rounded-5">Ver detalle<i class="uil uil-angle-right"></i></button></td>
+                    <td><button type="button" class="btn btn-outline-warning rounded-5">A cocina</button>
+                        <button type="button" class="btn btn-outline-success rounded-5">Pagar</button>
+                        <button type="button" class="btn btn-outline-warning rounded-5">Ver receta<i class="uil uil-angle-right"></i></button>
+                        <button type="button" class="btn btn-outline-danger rounded-5">Eliminar <i class="bi bi-trash3"></i></button></td>
+                </tr>
+                <tr>
+                    <td>000000006</td>
+                    <td>25/03/2023 23:30</td>
+                    <td>Retiro Local</td>
+                    <td>Efectivo</td>
+                    <td>Pagado</td>
+                    <td>Entregado</td>
+                    <td><button type="button" class="btn btn-outline-warning rounded-5">Ver detalle<i class="uil uil-angle-right"></i></button></td>
+                    <td><button type="button" class="btn btn-outline-warning rounded-5" disabled>A cocina</button>
+                        <button type="button" class="btn btn-outline-success rounded-5" disabled>Pagar</button>
+                        <button type="button" class="btn btn-outline-warning rounded-5">Ver receta<i class="uil uil-angle-right"></i></button>
+                        <button type="button" class="btn btn-outline-danger rounded-5">Eliminar <i class="bi bi-trash3"></i></button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section class="back">
+    <div class="mx-5">
+        <button type="button" class="btn btn-warning text-white rounded-5 btn-outline-dark btn-lg">
+            <i class="uil uil-angle-left"></i>
+            Volver
+        </button>
+    </div>
+</section>
+
+ <footer>
+    <nav class="navbar navbar-light ">
+        <div class="container-fluid">
+          <span class="navbar-text">
+            Copyright © 2023 El buen sabor | All Rights Reserved
+          </span>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link red-social whatsapp" href="#">
+                    <i class="uil uil-whatsapp-alt wh"></i>
+                </a>
+            </li>
+            <li class="nav-item red-social instagram">
+                <a class="nav-link" href="#">
+                    <i class="uil uil-instagram ig"></i>
+                </a>            
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+</footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
