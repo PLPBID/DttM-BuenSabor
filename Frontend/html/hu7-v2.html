@@ -79,9 +79,9 @@
           </nav>
     </header>
 
-    <div class="main">
+    <section class="main">
         <div class="misdatos">
-            <h1>Crear Cuenta</h1>
+            <h1>Modificar Cliente</h1>
         </div>
 
         <div>
@@ -91,10 +91,10 @@
         <section class="section-1">
             <div class="form">
                 <div class="text-center">
-                    <button type="button" class="btn btn-light btn-lg" id="botonGoogle">
-                      <i class="uil uil-google"></i>
-                      Sign Up with Google
-                    </button>
+                  <a class="btn btn-warning disabled placeholder col-4" aria-disabled="true">
+                    <i class="uil uil-user-circle"></i>
+                    Nombre del Cliente
+                  </a>
                   </div>
                 <div class="inputs">
                     <div class="form1">
@@ -110,10 +110,7 @@
                             <label for="direccion">Dirección</label>
                             <input type="text" class="form-control" placeholder="Dirección">
                         </div>
-                        <div class="casilla">
-                            <label for="contraseña">Contraseña</label>
-                            <input type="password" class="form-control" placeholder="Contraseña">
-                        </div>
+                  
                     </div>
                     <div class="form2">
                         <div class="casilla">
@@ -128,26 +125,27 @@
                             <label for="departamento">Departamento</label>
                             <input type="text" class="form-control" placeholder="Departamento">
                         </div>
-                        <div class="casilla">
-                            <label for="fechaNac">Fecha de nacimiento</label>
-                            <input type="text" class="form-control" placeholder="Fecha de nacimiento">
-                        </div>
+                       
                     </div>
                 </div>
             </div>
         </section>
 
         <div class="botonconf">
-            <button type="submit" class="btn btn-warning text-white rounded-5 btn-outline-dark btn-lg">
-                Registrarse
-                <i class="uil uil-angle-right uil-4x"></i>
+          <button type="button" class="btn btn-outline-danger rounded-5">
+            <i class="uil uil-times"></i>
+            Cancelar
+          </button>
+            <button type="button" class="btn btn-outline-primary rounded-5">
+              Confirmar
+              <i class="uil uil-check"></i>
             </button>
         </div>
         
       
         
 
-    </div>
+    </section>
     
     <footer>
         <nav class="navbar navbar-light ">
@@ -156,8 +154,8 @@
                 Copyright © 2023 El buen sabor | All Rights Reserved
               </span>
               <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link red-social whatsapp" href="#">
+                <li class="nav-item red-social whatsapp">
+                    <a class="nav-link " href="#">
                         <i class="uil uil-whatsapp-alt wh"></i>
                     </a>
                 </li>
