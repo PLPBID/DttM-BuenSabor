@@ -47,18 +47,33 @@
 
    <section class="main">
     <h1>Pedidos</h1>
+        <div>Estado <button type="button" class="btn btn-light dropdown-toggle btn-outline-dark" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+            <span>A confirmar</span>
+            
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-end">
+          <li><button class="dropdown-item" type="button">A confirmar</button></li>
+          <li><button class="dropdown-item" type="button">En cocina</button></li>
+          <li><button class="dropdown-item" type="button">Listo</button></li>
+          <li><button class="dropdown-item" type="button">En delivery</button></li>
+          <li><button class="dropdown-item" type="button">Entregado</button></li>
+        </ul>
+
+            
+        </div>
+
     <div class="table-responsive">
         <table class="table">
             <thead>
                 <tr>
-                    <th class= "titulo-tabla" scope="col">N°Pedido</th>
-                    <th class= "titulo-tabla" scope="col">Fecha y hora</th>
-                    <th class= "titulo-tabla" scope="col">Forma de Entrega</th>
-                    <th class= "titulo-tabla" scope="col">Forma de pago</th>
-                    <th class= "titulo-tabla" scope="col">Estado de Pago</th>
-                    <th class= "titulo-tabla" scope="col">Estado</th>
-                    <th class= "titulo-tabla" scope="col">Detalle</th>
-                    <th class= "titulo-tabla" scope="col">Acciones</th>
+                    <th class="titulo-tabla" scope="col">N°Pedido</th>
+                    <th class="titulo-tabla" scope="col">Fecha y hora</th>
+                    <th class="titulo-tabla" scope="col">Forma de Entrega</th>
+                    <th class="titulo-tabla" scope="col">Forma de pago</th>
+                    <th class="titulo-tabla" scope="col">Estado de Pago</th>
+                    <th class="titulo-tabla" scope="col">Estado</th>
+                    <th class="titulo-tabla" scope="col">Detalle</th>
+                    <th class="titulo-tabla" scope="col">Acciones</th>
                 </tr>
             </thead>
             <tbody>
