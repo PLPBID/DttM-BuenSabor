@@ -67,8 +67,88 @@
                 <td>$2500</td>
                 <td>30min</td>
                 <td>Alta</td>
-                <td><button type="button" class="btn btn-outline-warning rounded-5">Editar <i class="bi bi-pencil"></i></button>
-                    <button type="button" class="btn btn-outline-danger rounded-5">Eliminar<i class="bi bi-trash3"></button></td>
+                <td><button type="button" class="btn btn-outline-dark rounded-5" id="btn-abrir-modal2" style="--bs-btn-bg:#FDC95A">Editar <i class="bi bi-pencil"></i></button>
+
+                  <dialog id="modal2">
+
+                    <div id="header-popup"><h5>Editar Rubro</h5></div>
+                    <br>
+                    <div class="form">
+                      <div class="form1">
+                          <div class="casilla">
+                            <input class="form-control" type="text" placeholder="Nombre" aria-label="default input example">
+                          </div>
+                          <div class="casilla">
+                            <input class="form-control" type="text" placeholder="Descripción" aria-label="default input example">
+                          </div>
+                          <div class="casilla">
+                            <input class="form-control" type="text" placeholder="Precio de Venta" aria-label="default input example">
+                          </div>
+                      </div>
+                      
+                    <br>
+                    <div class="form2">
+                        <div class="casilla">
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Rubro</option>
+                          <option value="1">Rubro1</option>
+                          <option value="2">Rubro2</option>
+                          <option value="3">Rubro3</option>
+                        </select>
+                         
+                        </div>
+                        <div class="casilla">
+                          <input class="form-control" type="text" placeholder="Tiempo de Cocina" aria-label="default input example">
+                        </div>
+                        <div class="casilla">
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected>Estado</option>
+                            <option value="1">Alta</option>
+                            <option value="2">Baja</option>
+                          </select>
+                        </div>
+                    </div>
+                    </div> 
+                      
+                    <br>
+                    <div class="d-flex">
+                      <button type="button" class="btn btn-light btn-outline-dark rounded-5" id="btn-cerrar-modal2">
+                        <i class="uil uil-angle-left"></i>
+                        Cancelar
+                    </button>
+                    <button type="button" class="btn btn-light btn-outline-dark rounded-5">
+                        Subir imagen
+                    </button>
+                    <button type="button" class="btn btn-light btn-outline-dark rounded-5">
+                        Modificar receta
+                    </button>
+                    <button type="button" class="btn btn-light btn-outline-dark rounded-5">
+                      Confirmar <i class="bi bi-arrow-right-short"></i>
+                  </button>
+                  </div>
+        
+                  <script>
+        
+                    const btnAbrirMoldal2 = document.querySelector("#btn-abrir-modal2");
+        
+                    const btnCerrarModal2 = document.querySelector("#btn-cerrar-modal2");
+        
+                    const modal2 = document.querySelector("#modal2");
+        
+                    btnAbrirMoldal2.addEventListener("click", ()=>{
+                      modal2.showModal(); })
+        
+                    btnCerrarModal2.addEventListener("click", ()=>{
+                      modal2.close(); })
+        
+                  </script>
+        
+                </dialog>
+
+
+
+                    <button type="button" class="btn btn-outline-dark rounded-5" style="--bs-btn-bg:#c91d12">Eliminar<i class="bi bi-trash3"></button></td>
+
             </tr>
             <tr>
                 <td>Producto #2 </td>
@@ -76,8 +156,8 @@
                 <td>$2500</td>
                 <td>30min</td>
                 <td>Alta</td>
-                <td><button type="button" class="btn btn-outline-warning rounded-5">Editar <i class="bi bi-pencil"></i></button>
-                    <button type="button" class="btn btn-outline-danger rounded-5">Eliminar<i class="bi bi-trash3"></button></td>
+                <td><button type="button" class="btn btn-outline-dark rounded-5" style="--bs-btn-bg:#FDC95A">Editar <i class="bi bi-pencil"></i></button>
+                    <button type="button" class="btn btn-outline-dark rounded-5" style="--bs-btn-bg:#c91d12">Eliminar<i class="bi bi-trash3"></button></td>
             </tr>
             <tr>
                 <td>Producto #3 </td>
@@ -85,8 +165,8 @@
                 <td>$2500</td>
                 <td>30min</td>
                 <td>Alta</td>
-                <td><button type="button" class="btn btn-outline-warning rounded-5">Editar <i class="bi bi-pencil"></i></button>
-                    <button type="button" class="btn btn-outline-danger rounded-5">Eliminar<i class="bi bi-trash3"></button></td>
+                <td><button type="button" class="btn btn-outline-dark rounded-5" style="--bs-btn-bg:#FDC95A">Editar <i class="bi bi-pencil"></i></button>
+                    <button type="button" class="btn btn-outline-dark rounded-5" style="--bs-btn-bg:#c91d12">Eliminar<i class="bi bi-trash3"></button></td>
             </tr>
             <tr>
                 <td>Producto #4 </td>
@@ -94,8 +174,8 @@
                 <td>$2500</td>
                 <td>30min</td>
                 <td>Alta</td>
-                <td><button type="button" class="btn btn-outline-warning rounded-5">Editar <i class="bi bi-pencil"></i></button>
-                    <button type="button" class="btn btn-outline-danger rounded-5">Eliminar<i class="bi bi-trash3"></button></td>
+                <td><button type="button" class="btn btn-outline-dark rounded-5" style="--bs-btn-bg:#FDC95A">Editar <i class="bi bi-pencil"></i></button>
+                    <button type="button" class="btn btn-outline-dark rounded-5" style="--bs-btn-bg:#c91d12">Eliminar<i class="bi bi-trash3"></button></td>
             </tr>
             <tr>
                 <td>Producto #5 </td>
@@ -103,8 +183,8 @@
                 <td>$2500</td>
                 <td>30min</td>
                 <td>Alta</td>
-                <td><button type="button" class="btn btn-outline-warning rounded-5">Editar <i class="bi bi-pencil"></i></button>
-                    <button type="button" class="btn btn-outline-danger rounded-5">Eliminar<i class="bi bi-trash3"></button></td>
+                <td><button type="button" class="btn btn-outline-dark rounded-5" style="--bs-btn-bg:#FDC95A">Editar <i class="bi bi-pencil"></i></button>
+                    <button type="button" class="btn btn-outline-dark rounded-5" style="--bs-btn-bg:#c91d12">Eliminar<i class="bi bi-trash3"></button></td>
             </tr>
             </tbody>
         </table>
