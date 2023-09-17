@@ -1,37 +1,37 @@
 .titulo-cajero h3{
     color: black;
-  }
+}
 
-  .titulo-tabla { 
+.form-select{
+  line-height: 2.01;
+}
 
-    text-align: center;
+.titulo-tabla {
+  text-align: center;
+}
 
-  }
-
-  td {
-
-    text-align: center;
-
-  }
+td {
+  text-align: center;
+}
   
-  .header-frame{
-      width: 100%;
-      height: auto;
-  }
+.header-frame{
+    width: 100%;
+    height: auto;
+}
   
-  .texto-grande {
-      font-size: 1em; 
-  }
+.texto-grande {
+    font-size: 1em; 
+}
   
-  .texto-pequeno {
-      font-size: 0.8em; 
-  }
+.texto-pequeno {
+    font-size: 0.8em; 
+}
   
-  .main{
-      padding-bottom: 10vh;
-      padding-left: 5vh;
-      padding-right: 5vh;
-  }
+.main{
+    padding-bottom: 10vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
   
   .main h1{
       margin-bottom: 1em;
@@ -39,8 +39,15 @@
   }
 
   #modal{
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    border-radius: 5vh;
+    width: 100vh;
+  }
 
-    
+  .form-control{
+    padding-bottom: 2vh;
   }
 
   h5 {
@@ -67,9 +74,12 @@
 }
 
   #header-popup{
-
+    display: flex;
+    height: 10vh;
     margin: 0px 0px 0px 0px;
     background-color: #FDC95A;
+    justify-content: center;
+    align-items: center;
   }
 
   #modal::backdrop{
