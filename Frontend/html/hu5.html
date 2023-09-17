@@ -10,29 +10,75 @@
 </head>
 <body>
     <header>
-        <iframe class="iframeheader" src="headerCliLog.html"></iframe>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img id="logo" src="/Frontend/assets/Frame 39529.svg" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse nav-justified" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item mr-1">
+                    <a class="nav-link active " aria-current="page" href="#">Inicio</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+  
+                  <li>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 rounded-5" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-dark rounded-5" type="submit">
+                            <i class="uil uil-search search-icon"></i>
+                        </button>
+                      </form>
+                  </li>
+                </ul>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                        <i class="uil uil-user-circle"></i>
+                        Mi Cuenta
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-end">
+                      <li><button class="dropdown-item" type="button">Ver Perfil</button></li>
+                      <li><button class="dropdown-item" type="button">Historial de Pedidos</button></li>
+                      <li><button class="dropdown-item" type="button">Salir</button></li>
+                    </ul>
+                  </div>
+            </div>
+          </nav>
     </header>
     <div class="main">
-        
-        <div class="card">
+        <div class="card" id="carta">
             <div class="form">
                 <div class="form1">
                     <div class="casilla">
                         <label for="nombre">Contraseña Actual</label>
-                        <input type="password" placeholder="Contraseña Actual">
+                        <input type="password" class="form-control" placeholder="Contraseña Actual">
                     </div>
                     <div class="casilla">
                         <label for="telefono">Nueva Contraseña</label>
-                        <input type="password" placeholder="Nueva Contraseña">
+                        <input type="password" class="form-control" placeholder="Nueva Contraseña">
                     </div>
                     <div class="casilla">
                         <label for="direccion">Repetir Nueva Contraseña</label>
-                        <input type="password" placeholder="Repetir Nueva Contraseña">
+                        <input type="password" class="form-control" placeholder="Repetir Nueva Contraseña">
                     </div>
                 </div>
             </div>
             <div class="botonconf">
-                <button class="btn btn-outline-black">Actualizar</button>
+                <button class="btn btn-outline-dark" style="--bs-btn-bg: #FDC95A">Actualizar</button>
             </div>
         </div>
 
@@ -42,8 +88,28 @@
     </div>
 
     <footer>
-        <iframe class="iframefooter" src="footer.html"></iframe>
+        <nav class="navbar navbar-light ">
+            <div class="container-fluid">
+              <span class="navbar-text">
+                Copyright © 2023 El buen sabor | All Rights Reserved
+              </span>
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link red-social whatsapp" href="#">
+                        <i class="uil uil-whatsapp-alt wh"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link red-social instagram" href="#">
+                        <i class="uil uil-instagram ig"></i>
+                    </a>            
+                </li>
+              </ul>
+            </div>
+          </nav>
+          
     </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
