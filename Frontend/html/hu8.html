@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/Frontend/css/hu8.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 </head>
 <body>
     <header>
@@ -92,8 +93,7 @@
                         <th scope="col">Dirección</th>
                         <th scope="col">Departamento</th>
                         <th scope="col">Estado</th>
-                        <th scope="col">Editar</th>
-                        <th scope="col">Eliminar</th>
+                        <th scope="col">Acciones</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -105,8 +105,78 @@
                         <td>C. Rodriguez 247</td>
                         <td>Ciudad</td>
                         <td>Alta</td>
-                        <td><button type="button" class="btn btn-outline-primary rounded-5">Editar</button></td>
-                        <td><button type="button" class="btn btn-outline-danger rounded-5">Eliminar</button></td>
+                        <td><button type="button" class="btn btn-outline-dark rounded-5" id="btn-abrir-modal" style="--bs-btn-bg:#FDC95A">Editar</button>
+
+                          <dialog id="modal">
+
+                            <div id="header-popup"><h5>Editar datos empleado</h5></div>
+                            <br>
+                            <div class="form">
+                              <div class="form1">
+                                  <div class="casilla">
+                                    <input class="form-control" type="text" placeholder="Nombre" aria-label="default input example">
+                                  </div>
+                                  <div class="casilla">
+                                    <input class="form-control" type="text" placeholder="Teléfono" aria-label="default input example">
+                                  </div>
+                                  <div class="casilla">
+                                    <input class="form-control" type="text" placeholder="Dirección" aria-label="default input example">
+                                  </div>
+                                  <div class="casilla">
+                                    <select class="form-select" aria-label="Default select example">
+                                      <option selected>Estado</option>
+                                      <option value="1">Alta</option>
+                                      <option value="2">Baja</option>
+                                    </select>
+                                  </div>
+                              </div>
+                              
+                            <br>
+                            <div class="form2">
+                                <div class="casilla">
+                                  <input class="form-control" type="text" placeholder="Apellido" aria-label="default input example">
+                                </div>
+                                <div class="casilla">
+                                  <input class="form-control" type="text" placeholder="Mail" aria-label="default input example">
+                                </div>
+                                <div class="casilla">
+                                  <input class="form-control" type="text" placeholder="Departamento" aria-label="default input example">
+                                </div>
+
+                            </div>
+                            </div> 
+                              
+                            <br>
+                            <div class="d-flex">
+                              <button type="button" class="btn btn-light btn-outline-dark rounded-5" id="btn-cerrar-modal">
+                                <i class="uil uil-angle-left"></i>
+                                Cancelar
+                            </button>
+                            <button type="button" class="btn btn-light btn-outline-dark rounded-5">
+                              Confirmar <i class="bi bi-arrow-right-short"></i>
+                          </button>
+                          </div>
+                
+                          <script>
+                
+                            const btnAbrirMoldal = document.querySelector("#btn-abrir-modal");
+                
+                            const btnCerrarModal = document.querySelector("#btn-cerrar-modal");
+                
+                            const modal = document.querySelector("#modal");
+                
+                            btnAbrirMoldal.addEventListener("click", ()=>{
+                              modal.showModal(); })
+                
+                            btnCerrarModal.addEventListener("click", ()=>{
+                              modal.close(); })
+                
+                          </script>
+                
+                        </dialog>
+
+
+                          <button type="button" class="btn btn-outline-dark rounded-5" style="--bs-btn-bg:#c91d12">Eliminar<i class="bi bi-trash3"></button></td>
                     </tr>
                     <tr>
                         <td>Lionel Messi</td>
@@ -116,8 +186,8 @@
                         <td>C. Rodriguez 247</td>
                         <td>Ciudad</td>
                         <td>Alta</td>
-                        <td><button type="button" class="btn btn-outline-primary rounded-5">Editar</button></td>
-                        <td><button type="button" class="btn btn-outline-danger rounded-5">Eliminar</button></td>
+                        <td><button type="button" class="btn btn-outline-dark rounded-5" style="--bs-btn-bg:#FDC95A">Editar</button>
+                          <button type="button" class="btn btn-outline-dark rounded-5" style="--bs-btn-bg:#c91d12">Eliminar<i class="bi bi-trash3"></button></td>
                     </tr>
                     <tr>
                         <td>Lionel Messi</td>
@@ -127,8 +197,8 @@
                         <td>C. Rodriguez 247</td>
                         <td>Ciudad</td>
                         <td>Alta</td>
-                        <td><button type="button" class="btn btn-outline-primary rounded-5">Editar</button></td>
-                        <td><button type="button" class="btn btn-outline-danger rounded-5">Eliminar</button></td>
+                        <td><button type="button" class="btn btn-outline-dark rounded-5" style="--bs-btn-bg:#FDC95A">Editar</button>
+                          <button type="button" class="btn btn-outline-dark rounded-5" style="--bs-btn-bg:#c91d12">Eliminar<i class="bi bi-trash3"></button></td>
                     </tr>
                     <tr>
                         <td>Lionel Messi</td>
@@ -138,8 +208,8 @@
                         <td>C. Rodriguez 247</td>
                         <td>Ciudad</td>
                         <td>Alta</td>
-                        <td><button type="button" class="btn btn-outline-primary rounded-5">Editar</button></td>
-                        <td><button type="button" class="btn btn-outline-danger rounded-5">Eliminar</button></td>
+                        <td><button type="button" class="btn btn-outline-dark rounded-5" style="--bs-btn-bg:#FDC95A">Editar</button>
+                          <button type="button" class="btn btn-outline-dark rounded-5" style="--bs-btn-bg:#c91d12">Eliminar<i class="bi bi-trash3"></button></td>
                     </tr>
                     <tr>
                         <td>Lionel Messi</td>
@@ -149,8 +219,8 @@
                         <td>C. Rodriguez 247</td>
                         <td>Ciudad</td>
                         <td>Alta</td>
-                        <td><button type="button" class="btn btn-outline-primary rounded-5">Editar</button></td>
-                        <td><button type="button" class="btn btn-outline-danger rounded-5">Eliminar</button></td>
+                        <td><button type="button" class="btn btn-outline-dark rounded-5" style="--bs-btn-bg:#FDC95A">Editar</button>
+                          <button type="button" class="btn btn-outline-dark rounded-5" style="--bs-btn-bg:#c91d12">Eliminar<i class="bi bi-trash3"></button></td>
                     </tr>
                 </tbody>
             </table>
@@ -162,10 +232,6 @@
             <button type="submit" class="btn btn-warning text-white rounded-5 btn-outline-dark btn-lg" style="--bs-btn-bg: #FDC95A">
                 <i class="uil uil-angle-left"></i>
                 Volver
-            </button>
-            <button type="submit" class="btn btn-warning text-white rounded-5 btn-outline-dark btn-lg" style="--bs-btn-bg: #FDC95A">
-                Nuevo
-                <i class="uil uil-plus"></i>
             </button>
         </div>
     </section>
