@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="title">Anular Factura</title>
+    <link rel="stylesheet" href="../css/hu19.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <iframe class="iframeheader" src="headerCliLog.html"></iframe>
+    </header>
+
+    <!--Nota de Credito--> 
+   <section class="factura">
+    <header class="clearfix">
+      <h1>Nota de Credito #00001</h1>
+      <div id="company" class="clearfix">
+        <div>El Buen Sabor</div>
+        <div>455 Cnel Rodriguez,<br /> Mendoza, Argentina</div>
+        <div>261-5837522</div>
+        <div><a href="mailto:company@example.com">elbuensabor@gmail.com</a></div>
+      </div>
+      <div id="project">
+        <div><span>CLIENTE</span> Lionel Messi</div>
+        <div><span>TELEFONO</span> 261-5360186</div>
+        <div><span>DIRECCION</span> Belgrano, 183, Mendoza, Mendoza</div>
+        <div><span>EMAIL</span> <a href="mailto:john@example.com">elmejordelmundo@gmail.com</a></div>
+        <div><span>FECHA</span>19/09/2023 21:00hs</div>
+        <div><span>N° FACTURA</span>0000001</div>
+      </div>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th class="service">PRODUCTO</th>
+            <th class="desc">DESCRIPCION</th>
+            <th>PRECIO</th>
+            <th>CANT.</th>
+            <th>TOTAL</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="service">Producto #1</td>
+            <td class="desc">Creating a recognizable design solution based on the company's existing visual identity</td>
+            <td class="unit">$1500</td>
+            <td class="qty">1</td>
+            <td class="total">$1500</td>
+          </tr>
+          <tr>
+            <td class="service">Producto #2</td>
+            <td class="desc">Developing a Content Management System-based Website</td>
+            <td class="unit">$1500</td>
+            <td class="qty">1</td>
+            <td class="total">$1500</td>
+          </tr>
+          <tr>
+            <td class="service">Producto #3</td>
+            <td class="desc">Optimize the site for search engines (SEO)</td>
+            <td class="unit">$1500</td>
+            <td class="qty">2</td>
+            <td class="total">$3000</td>
+          </tr>
+          
+          <tr>
+            <td colspan="4">SUBTOTAL</td>
+            <td class="total">$6000</td>
+          </tr>
+          <tr>
+            <td colspan="4">DESCUENTO</td>
+            <td class="total">-$0</td>
+          </tr>
+          <tr>
+            <td colspan="4">DELIVERY</td>
+            <td class="total">$340</td>
+          </tr>
+          <tr>
+            <td colspan="4" class="grand total">TOTAL</td>
+            <td class="grand total">$6340</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+   </section> 
+    <!--Fin Nota de Credito--> 
+
+
+    <div class="botonconf">
+        <button class="btn btn-outline-dark" id="boton">Volver</button>
+        <div>
+        <button class="btn btn-outline-dark" id="boton">Imprimir Factura</button>
+        <button class="btn btn-outline-dark" id="boton">Anular Factura</button>
+        </div>
+    </div>  
+    <footer>
+        <iframe class="iframefooter" src="footer.html"></iframe>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
