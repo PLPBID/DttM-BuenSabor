@@ -32,6 +32,11 @@
       padding-left: 5vh;
       padding-right: 5vh;
   }
+
+  .cabecera a{
+    color: black;
+    font-size: 1.2em;
+  }
   
   .main h1{
       margin-bottom: 1em;
