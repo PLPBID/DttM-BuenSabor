@@ -1,0 +1,167 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FDC95A;
+    height: 160px;
+    width: 100%;
+    margin-bottom: 0px;
+    border: 1px solid black;
+}
+
+footer .contacto{
+    display: flex;
+    margin: 0 96px 0 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto .whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 36px;
+    background-color: #fff;
+    margin-right: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contacto .insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 36px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.wh{
+    font-size: 27px;
+    color:#8D8BA7;
+}
+
+.ig{
+    font-size: 27px;
+    color:#8D8BA7;
+}
+
+
+footer p{
+    margin: 0 0 0 96px;
+    color: rgba(0, 0, 0, 54%);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.titulo-cajero h3{
+    color: black;
+  }
+
+  .titulo-tabla { 
+
+    text-align: center;
+
+  }
+
+  td {
+
+    text-align: center;
+
+  }
+  
+  .header-frame{
+      width: 100%;
+      height: auto;
+  }
+  
+  .texto-grande {
+      font-size: 1em; 
+  }
+  
+  .texto-pequeno {
+      font-size: 0.8em; 
+  }
+  
+  .main{
+      padding-bottom: 10vh;
+      padding-left: 5vh;
+      padding-right: 5vh;
+  }
+
+  .cabecera a{
+    color: black;
+    font-size: 1.2em;
+  }
+  
+  .main h1{
+      margin-bottom: 1em;
+      text-align: center;
+  }
+
+ 
+  h5 {
+    text-align: center;
+  }
+
+.form{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.casilla{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.d-flex{
+
+    justify-content: space-evenly;
+}
+
+  #header-popup{
+
+    margin: 0px 0px 0px 0px;
+    background-color: #FDC95A;
+  }
+
+  #modal::backdrop{
+
+    background-color: rgba(0,0,0,.55);
+  }  
+    .red-social{
+      display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2.25em;
+        width: 2.25em;
+        background-color: #fff;
+        border-radius: 0.5em;
+    }
+    
+    .whatsapp{
+      margin-right: 1em;
+    }
+    
+    .whatsapp i{
+      font-size: 1.688em;
+        color:#8D8BA7;
+    }
+    
+    .instagram i{
+      font-size: 1.688em;
+        color:#8D8BA7;
+    }
+    .ordenar {
+        padding-top: 8px;
+    }
+    #exportar {
+        padding: 12px;
+        margin: 20px;
+    
+    }
