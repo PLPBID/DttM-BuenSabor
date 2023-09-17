@@ -71,6 +71,7 @@
   
   #project {
     float: left;
+    padding-left: 8px;
   }
   
   #project span {
@@ -140,4 +141,6 @@
   table td.grand {
     border-top: 1px solid #5D6975;;
   }
-  
+  .clearfix {
+    padding-right: 8px;
+  }
