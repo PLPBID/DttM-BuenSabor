@@ -1,9 +1,19 @@
+header {
+  background-color:#FDC95A;
+  border: 0.063em solid black;
+  position: sticky;
+  top: 0;
+  height: 86px;
+}
 
+#logo{
+  height: 75%; 
+  width: 75%;
+}
   
   .main{
-      padding-bottom: 5vh;
-      padding-left: 5vh;
-      padding-right: 5vh;
+      padding: 5vh;
+      min-height: calc(100vh - 86px - 88px);
   }
   
   .main h1{
@@ -14,33 +24,37 @@
         display: flex;
         justify-content: space-between;
   }
-  
-  footer{
+
+footer{
+    padding: 1em;
     margin-top: 5em;
     background-color: #FDC95A;
-    padding: 1em;
-  }
+}
   
-  .red-social{
+.red-social{
     display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 2.25em;
-      width: 2.25em;
-      background-color: #fff;
-      border-radius: 0.5em;
-  }
+    justify-content: center;
+    align-items: center;
+    height: 2.25em;
+    width: 2.25em;
+    background-color: #fff;
+    border-radius: 0.5em;
+}
   
-  .whatsapp{
+.whatsapp{
     margin-right: 1em;
-  }
+}
   
-  .whatsapp i{
+.whatsapp i{
     font-size: 1.688em;
-      color:#8D8BA7;
-  }
+    color:#8D8BA7;
+}
+
+.instagram{
+    margin-right: 1em;
+}
   
-  .instagram i{
+.instagram i{
     font-size: 1.688em;
-      color:#8D8BA7;
-  }
+    color:#8D8BA7;
+}
