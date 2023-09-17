@@ -31,8 +31,7 @@
                 <div class="btn-group">
                     <button type="button" class="btn btn-light dropdown-toggle btn-outline-dark rounded-5" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
                         <i class="bi bi-briefcase"></i>
-                        <span class="texto-grande">Mi Cuenta</span>
-                        
+                        <span class="texto-grande">Mi Cuenta</span>    
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-end">
                       <li><button class="dropdown-item" type="button">Ver Perfil</button></li>
@@ -65,31 +64,28 @@
                 <td>Alta</td>
                 <td><button type="button" class="btn btn-outline-dark rounded-5" id="btn-abrir-modal2" style="--bs-btn-bg:#FDC95A">Editar <i class="bi bi-pencil"></i></button>
                     <dialog id="modal2">
-
                         <div id="header-popup"><h5>Editar Rubro</h5></div>
                         <br>
                         <div class="form">
                             <div class="form1">
-                                <div class="casilla">
+                                <div class="casilla" id="cas">
                                     <input class="form-control" type="text" placeholder="Nombre" aria-label="default input example">
                                 </div>
                             </div>
-                            
-                            <br>
                             <div class="form2">
-                                <div class="casilla">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>Editar ingredientes</option>
-                                    <option value="1">Ingrediente #1</option>
-                                    <option value="2">Ingrediente #2</option>
-                                    <option value="3">Ingrediente #3</option>
-                                    <option value="4">Ingrediente #4</option>
-                                    <option value="5">Ingrediente #5</option>
-                                </select>
+                                <div class="casilla" id="cas">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Editar ingredientes</option>
+                                        <option value="1">Ingrediente #1</option>
+                                        <option value="2">Ingrediente #2</option>
+                                        <option value="3">Ingrediente #3</option>
+                                        <option value="4">Ingrediente #4</option>
+                                        <option value="5">Ingrediente #5</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="form3">
-                                <div class="casilla">
+                                <div class="casilla" id="cas">
                                 <select class="form-select" aria-label="Default select example">
                                     <option selected>Estado</option>
                                     <option value="1">Alta</option>
@@ -165,35 +161,32 @@
 
     <div class="mx-5">
 
-        <button type="button" class="btn btn-warning text-white rounded-5 btn-outline-dark btn-lg"><i class="uil uil-angle-left"></i> Volver </button>
-        <button type="button" class="btn btn-warning text-white rounded-5 btn-outline-dark btn-lg" id="btn-abrir-modal"> Nuevo Producto </button>
+        <button type="button" class="btn btn-warning rounded-5 btn-outline-dark btn-lg" style="--bs-btn-bg: #FDC95A"><i class="uil uil-angle-left"></i> Volver </button>
+        <button type="button" class="btn btn-warning rounded-5 btn-outline-dark btn-lg" id="btn-abrir-modal" style="--bs-btn-bg: #FDC95A"> Nuevo Producto </button>
           
         <dialog id="modal">
-
             <div id="header-popup"><h5>Nuevo Rubro</h5></div>
             <br>
             <div class="form">
                 <div class="form1">
-                    <div class="casilla">
+                    <div class="casilla" id="cas">
                         <input class="form-control" type="text" placeholder="Nombre" aria-label="default input example">
                     </div>
                 </div>
-                
-                <br>
                 <div class="form2">
-                    <div class="casilla">
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Agregar ingredientes</option>
-                        <option value="1">Ingrediente #1</option>
-                        <option value="2">Ingrediente #2</option>
-                        <option value="3">Ingrediente #3</option>
-                        <option value="4">Ingrediente #4</option>
-                        <option value="5">Ingrediente #5</option>
-                    </select>
+                    <div class="casilla" id="cas">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Agregar ingredientes</option>
+                            <option value="1">Ingrediente #1</option>
+                            <option value="2">Ingrediente #2</option>
+                            <option value="3">Ingrediente #3</option>
+                            <option value="4">Ingrediente #4</option>
+                            <option value="5">Ingrediente #5</option>
+                        </select>
                     </div>
                 </div>
                 <div class="form3">
-                    <div class="casilla">
+                    <div class="casilla" id="cas">
                     <select class="form-select" aria-label="Default select example">
                         <option selected>Estado</option>
                         <option value="1">Alta</option>
@@ -201,8 +194,7 @@
                     </select>
                     </div>
                 </div>
-            </div>   
-              
+            </div>
             <br>
             <div class="d-flex">
             <button type="button" class="btn btn-light btn-outline-dark rounded-5" id="btn-cerrar-modal">

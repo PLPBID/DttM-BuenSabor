@@ -3,15 +3,15 @@
 }
 
 .form-select{
-  line-height: 2.01;
+    line-height: 2.01;
 }
 
 .titulo-tabla {
-  text-align: center;
+    text-align: center;
 }
 
 td {
-  text-align: center;
+    text-align: center;
 }
   
 .header-frame{
@@ -33,41 +33,47 @@ td {
     padding-right: 5vh;
 }
   
-  .main h1{
-      margin-bottom: 1em;
-      text-align: center;
-  }
-
-  #modal{
-    padding-left: 0%;
-    padding-right: 0%;
-    padding-top: 0%;
-    border-radius: 5vh;
-    width: 100vh;
-  }
-
-  #modal2{
-    padding-left: 0%;
-    padding-right: 0%;
-    padding-top: 0%;
-    border-radius: 5vh;
-    width: 100vh;
-  }
-
-  .form-control{
-    padding-bottom: 2vh;
-  }
-
-  h5 {
+.main h1{
+    margin-bottom: 1em;
     text-align: center;
-  }
+}
+
+#modal{
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    border-radius: 5vh;
+    width: 100vh;
+}
+
+#modal2{
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    border-radius: 5vh;
+    width: 100vh;
+}
+
+.form-control{
+    padding-bottom: 2vh;
+}
+
+h5 {
+    text-align: center;
+}
 
 .form{
     display: flex;
-    justify-content:center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     width: 100%;
     padding-top: 5%;
     padding-bottom: 10%;
+}
+
+#cas{
+    display: flex;
+    width: 110%;
 }
 
 .casilla{
@@ -81,51 +87,54 @@ td {
     justify-content: space-evenly;
 }
 
-  #header-popup{
+#header-popup{
     display: flex;
     height: 10vh;
     margin: 0px 0px 0px 0px;
     background-color: #FDC95A;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  #modal::backdrop{
-
+#modal::backdrop{
     background-color: rgba(0,0,0,.55);
-  }
+}
 
-  #modal2::backdrop{
-
+#modal2::backdrop{
     background-color: rgba(0,0,0,.55);
-  }
+}
+
+.mx-5{
+  display: flex;
+  justify-content: space-around;
+}
   
-  footer{
-      padding: 1em;
-      margin-top: 5em;
-      background-color: #FDC95A;
-    }
+footer{
+    padding: 1em;
+    margin-top: 5em;
+    background-color: #FDC95A;
+}
     
-    .red-social{
-      display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 2.25em;
-        width: 2.25em;
-        background-color: #fff;
-        border-radius: 0.5em;
-    }
+.red-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.25em;
+    width: 2.25em;
+    background-color: #fff;
+    border-radius: 0.5em;
+}
     
-    .whatsapp{
-      margin-right: 1em;
-    }
+.whatsapp{
+    margin-right: 1em;
+}
     
-    .whatsapp i{
-      font-size: 1.688em;
-        color:#8D8BA7;
-    }
+.whatsapp i{
+    font-size: 1.688em;
+    color:#8D8BA7;
+}
     
-    .instagram i{
-      font-size: 1.688em;
-        color:#8D8BA7;
-    }
+.instagram i{
+    font-size: 1.688em;
+    color:#8D8BA7;
+}
