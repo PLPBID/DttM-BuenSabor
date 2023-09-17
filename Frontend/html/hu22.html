@@ -112,10 +112,75 @@
 </section>
 
 <section class="back">
+
     <div class="mx-5">
+
         <button type="button" class="btn btn-warning text-white rounded-5 btn-outline-dark btn-lg"><i class="uil uil-angle-left"></i> Volver </button>
-        <button type="button" class="btn btn-warning text-white rounded-5 btn-outline-dark btn-lg    open-button" id="open-button"> Nuevo Producto </button>
+        <button type="button" class="btn btn-warning text-white rounded-5 btn-outline-dark btn-lg" id="btn-abrir-modal"> Nuevo Producto </button>
+          
+        <dialog id="modal">
+
+            <div id="header-popup"><h5>Nuevo producto</h5></div>
+            <br>
+            <div class="form">
+              <div class="casilla">
+              <input class="form-control" type="text" placeholder="Nombre" aria-label="default input example">
+              <input class="form-control" type="text" placeholder="Descripción" aria-label="default input example">
+              <input class="form-control" type="text" placeholder="Precio de Venta" aria-label="default input example">
+            </div>
+            <br>
+            <div class="casilla">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Rubro</option>
+                <option value="1">Rubro1</option>
+                <option value="2">Rubro2</option>
+                <option value="3">Rubro3</option>
+              </select>
+              <input class="form-control" type="text" placeholder="Tiempo de Cocina" aria-label="default input example">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Estado</option>
+                <option value="1">Alta</option>
+                <option value="2">Baja</option>
+              </select> 
+            </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-between">
+            <button type="button" class="btn btn-light btn-outline-dark rounded-5" id="btn-cerrar-modal">
+                <i class="uil uil-angle-left"></i>
+                Cancelar
+            </button>
+            <button type="button" class="btn btn-light btn-outline-dark rounded-5">
+                Subir imagen
+            </button>
+            <button type="button" class="btn btn-light btn-outline-dark rounded-5">
+                Crear receta
+            </button>
+            <button type="button" class="btn btn-light btn-outline-dark rounded-5">
+              Confirmar <i class="bi bi-arrow-right-short"></i>
+          </button>
+          </div>
+
+          <script>
+
+            const btnAbrirMoldal = document.querySelector("#btn-abrir-modal");
+
+            const btnCerrarModal = document.querySelector("#btn-cerrar-modal");
+
+            const modal = document.querySelector("#modal");
+
+            btnAbrirMoldal.addEventListener("click", ()=>{
+              modal.showModal(); })
+
+            btnCerrarModal.addEventListener("click", ()=>{
+              modal.close(); })
+
+          </script>
+
+        </dialog>
+
     </div>
+
 </section>
 
  <footer>
