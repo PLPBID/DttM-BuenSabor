@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color:#FDC95A;
+    border: 0.063em solid black;
+    position: sticky;
+    top: 0;
+}
+
+#logo{
+    height: 75%; 
+    width: 75%;
+}
+
+.main{
+    width: 100%;
+    padding-top: 5vh;
+}
+
+.botonconf{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5vh;
+}
+
+#boton{
+    display: flex;
+    align-items: center;
+    --bs-btn-border-radius: 2rem;
+    margin-left: 4px;
+}
+
+.misdatos{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}  
+
+.form{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.form1{
+    padding: 0%;
+}
+
+.form2{
+    padding: 0%;
+}
+
+.casilla{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.botonconf{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5vh;
+}
+
+footer{
+    padding: 1em;
+    margin-top: 5em;
+    background-color: #FDC95A;
+}
+
+.red-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.25em;
+    width: 2.25em;
+    background-color: #fff;
+    border-radius: 0.5em;
+}
+  
+.whatsapp{
+    margin-right: 1em;
+}
+  
+.whatsapp i{
+    font-size: 1.688em;
+    color:#8D8BA7;
+}
+
+.instagram{
+    margin-right: 1em;
+}
+  
+.instagram i{
+    font-size: 1.688em;
+    color:#8D8BA7;
+}
