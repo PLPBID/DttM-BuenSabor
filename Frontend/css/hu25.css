@@ -107,3 +107,11 @@
       font-size: 1.688em;
         color:#8D8BA7;
     }
+    .ordenar {
+      padding-top: 8px;
+  }
+  #exportar {
+      padding: 12px;
+      margin: 20px;
+  
+  }
