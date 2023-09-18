@@ -33,3 +33,7 @@ Tomas Montigel
 #Entrega Sprint 1 
 
 [Link a Google Doc](https://docs.google.com/document/d/1RiYOccFwYTDredh83sI5LZNP7Drwj-p7Nbk0ue-wvn8/edit?usp=sharing)
+
+#Link Retro.md con resultado en retrospectiva
+
+https://my.echometerapp.com/r/UWVRAAOb4PU?sharingToken=57ad4fc5-0d44-4886-a37e-7a661c1a48dd&utm_source=webapp&utm_medium=copy_link&utm_campaign=retro_sidebar
