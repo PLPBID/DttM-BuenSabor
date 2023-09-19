@@ -36,4 +36,10 @@ Tomas Montigel
 
 #Link Retro.md con resultado en retrospectiva
 
-https://my.echometerapp.com/r/UWVRAAOb4PU?sharingToken=57ad4fc5-0d44-4886-a37e-7a661c1a48dd&utm_source=webapp&utm_medium=copy_link&utm_campaign=retro_sidebar
+[Retro.md](https://my.echometerapp.com/r/UWVRAAOb4PU?sharingToken=57ad4fc5-0d44-4886-a37e-7a661c1a48dd&utm_source=webapp&utm_medium=copy_link&utm_campaign=retro_sidebar)
+
+#Rúbrica Sprint 2
+
+[Link a Spreadsheet](https://docs.google.com/spreadsheets/d/1TbeuPoD6aJ9ci57-pKJyCgvOpp3OxnW5/edit#gid=1527487941)
+
+
