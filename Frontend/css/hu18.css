@@ -1,18 +1,38 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgba(255, 255, 255, 0.956);
+}
+
+header{
+  top: 0;
+  position: sticky;
+  border-bottom: 0.063em solid black;
+}
+
+header .navbar{
+  padding: 0;
+}
+
+
 .main{
+  margin-top: 2em;
     padding-bottom: 20vh;
     padding-left: 5vh;
     padding-right: 5vh;
 }
 
-.iframeheader{
-    width: 100%;
-    height: auto;
-    border-style: none;
-}
+
 
 .table-responsive{
     padding-top: 2vh;
 }
+
+
 
 
 
@@ -28,7 +48,7 @@ footer{
       align-items: center;
       height: 2.25em;
       width: 2.25em;
-      background-color: #fff;
+      background-color: none;
       border-radius: 0.5em;
   }
   
@@ -38,10 +58,11 @@ footer{
   
   .whatsapp i{
     font-size: 1.688em;
-      color:#8D8BA7;
+      color:black;
   }
   
   .instagram i{
     font-size: 1.688em;
-      color:#8D8BA7;
+      /*color:#8D8BA7;*/
+      color: black;
   }

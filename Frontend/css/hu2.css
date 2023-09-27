@@ -6,7 +6,7 @@
 
 header {
   background-color:#FDC95A;
-  border: 0.063em solid black;
+  border-bottom: 0.063em solid black;
   position: sticky;
   top: 0;
 }
