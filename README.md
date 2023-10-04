@@ -42,4 +42,8 @@ Tomas Montigel
 
 [Link a Spreadsheet](https://docs.google.com/spreadsheets/d/1TbeuPoD6aJ9ci57-pKJyCgvOpp3OxnW5/edit#gid=1527487941)
 
+#Tablero en Jira
+
+https://dttm-buensabor.atlassian.net/jira/software/projects/EBS/boards/1
+
 
