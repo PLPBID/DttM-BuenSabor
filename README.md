@@ -47,3 +47,7 @@ Tomas Montigel
 https://dttm-buensabor.atlassian.net/jira/software/projects/EBS/boards/1
 
 #Ver Carpeta "Backend" para la persistencia con Spring y JPA
+
+#Para consultar la base de datos H2, utilizar jdbc:h2:mem:./dttmdb en JDBC URL
+
+#Para ver el diagrama de clases, ver el archivo "DiagramaClaseSprint3.png"
