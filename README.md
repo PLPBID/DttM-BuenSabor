@@ -14,8 +14,6 @@ El Buen Sabor está abierto para todo público.
 
 Bruno Daniel 
 
-Adolfo Quintana
-
 Carlos Muñoz
 
 Franco Petino
